@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+.myInput{
+    width: 500px;  
+    margin: 8px 0px;
+    padding: 6px;
+    border-radius: 18px;
+    border-color: black;
+    font-size: 20px;
+    color: black;
+    background-color: darkgray;
+    outline: none;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: gainsboro;
+}
+
+.btn{
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 2px solid #eff100d6;
+    border-radius: 10px;
+    color: white;
+    background-color: #d13939;
+}
+.container{
+    min-height: 80vh;
+    background: center / cover no-repeat url("/static/img/bg2.jpg");
+    padding-top: 10px; 
+    
+
+}

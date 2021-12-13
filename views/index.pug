@@ -1,0 +1,67 @@
+doctype html
+html
+  head
+    title Simmi Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+            #logo 
+               img(src="../static/img/2.png")
+               | HDA    
+
+            li #[a(href="/") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/services") Services]
+            li #[a(href="/class") Class Info]
+            li #[a(href="/contact") Contact Us]
+
+        
+
+section#introSection
+ div Welcome to my Dance academy 
+ div.small Eat sleep dance repeat
+
+section#MissionSection
+ h3 Our Mission
+ .card 
+      h2 Dance Perfection
+      .card-box 
+          .card-img 
+             img(src="/static/img/1.png")
+          .card-content 
+             p This is the best dance academy
+
+
+ .card 
+      h2 Dance the way you like
+      .card-box 
+          .card-img 
+             img(src="/static/img/2.png")
+          .card-content 
+             p This is the best dance academy
+
+
+
+ .card 
+      h2 Expert Teaching
+      .card-box 
+          .card-img 
+             img(src="/static/img/4.png")
+          .card-content 
+             p This is the best dance academy
+
+section#sponsorSection
+ h3 Our sponsors
+     #sponsors 
+       img(src="/static/img/a.png", alt="sponsor image", Class="spImage")
+         img(src="/static/img/b.png", alt="sponsor image", Class="spImage")
+         img(src="/static/img/c.png", alt="sponsor image", Class="spImage")
+        img(src="/static/img/d.png", alt="sponsor image", Class="spImage")
+
+footer#footer 
+ | CopyRight 2021 SimmiDanceAcademy.com | All Rights Reserved
+
+script
+      include ../static/index.js

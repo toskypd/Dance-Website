@@ -1,0 +1,21 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+   style
+      include ../static/style.css
+      include ../static/styleContact.css
+
+block content 
+ .container 
+    h1 Contact Us 
+    form(action="/contact", method="post", Class="myForm")     
+        input(type="text", onkeyup="this.value = this.value.toUpperCase()", Class="myInput", name="name", placeholder="enter your name")
+        input(type="phone", onkeyup="this.value = this.value.toUpperCase()", Class="myInput", name="phone", placeholder="enter your phone")
+        input(type="email", onkeyup="this.value = this.value.toUpperCase()", Class="myInput", name="email", placeholder="enter your email")
+        input(type="address", onkeyup="this.value = this.value.toUpperCase()", Class="myInput", name="address", placeholder="enter your address")
+        input(type="desc", onkeyup="this.value = this.value.toUpperCase()", Class="myInput", name="desc", placeholder="enter your desc")
+        button(Class="btn")
+         | submit

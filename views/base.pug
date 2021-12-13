@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title Simmi Dance Academy
+    block scripts
+    block style
+      
+  body
+    nav#navbar
+        ul 
+            #logo 
+               img(src="../static/img/2.png")
+               | HDA    
+
+            li #[a(href="/") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/services") Services]
+            li #[a(href="/classinfo") Class Info]
+            li #[a(href="/contact") Contact Us]
+
+    block content
+    footer#footer 
+      | CopyRight 2021 SimmiDanceAcademy.com | All Rights Reserved
+    

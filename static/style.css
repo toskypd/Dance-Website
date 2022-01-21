@@ -52,13 +52,16 @@
     background-color: tomato;
     width: 99%;
     margin: auto;
+    display: flex;
 }
 
 #MissionSection h3{
     text-align: center;
-    padding-top: 13px;
+    padding-top: 103px;
     color: cornsilk;
     font-size: 42px;
+    align-items: stretch;
+}
 }
 
 #sponsorSection{
@@ -96,8 +99,8 @@
     display: inline-block;
     border: 2px solid black;
     border-radius: 5px;
-    width: 23%;
-    margin: 16px 85px;
+    width: 29%;
+    margin: 68px 40px;
     height: 200px;
     padding: 8px;
     background-color: white;
@@ -150,7 +153,7 @@
     display: flex;
     height: 140px;
     max-width: 1000px;
-    margin: 3px 336px;
+    margin: 33px 189px;
 }
 .spImage{
     height: 70%;
